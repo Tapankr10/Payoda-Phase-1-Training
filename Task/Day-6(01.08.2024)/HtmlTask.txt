@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #5c4c38; /* Changed color */
+            text-align: center;
+            padding: 10px 0;
+            border-bottom: 3px solid #333; /* Added border bottom */
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        header {
+            background-color: rgba(255, 144, 0, 0.9);
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+        }
+        header img {
+            border-radius: 50%;
+            height: 120px;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: rgba(255, 144, 0, 0.9);
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+    <!-- Updated Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <img src="/C:\Users\tapan.k\Documents\man.avif" alt="Profile Picture of TAPAN">
+        <h1>TAPAN.K.R</h1>
+        <p>Software Engineer</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+        </div>
+    </header>
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Hello! I am TAPAN, a web developer with a passion for creating stunning websites. Welcome to my personal portfolio!</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3>A Traffic Barrier System</h3>
+            <p>A traffic barrier system project involves designing and implementing barriers to manage vehicle flow and enhance safety. This includes selecting materials, determining optimal placement, integrating control mechanisms (like sensors and automated gates), and ensuring compliance with regulations. The goal is to reduce accidents, control access, and improve traffic management.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p><strong>Name:</strong> Tapan</p>
+            <p><strong>Email:</strong> <a href="mailto:tapan@example.com">tapan@example.com</a></p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Address:</strong> 1234 Elm Street, Delhi, India</p>
+            <p><strong>Website:</strong> <a href="http://www.tapanwebsite.com">www.tapanwebsite.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/tapan">linkedin.com/in/tapan</a></p>
+            <p><strong>Twitter:</strong> <a href="https://twitter.com/Tapan">@Tapan</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; TAPAN. Hire me</p>
+    </footer>
+</body>
+</html>
