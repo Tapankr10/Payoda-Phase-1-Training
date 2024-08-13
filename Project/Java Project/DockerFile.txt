@@ -1,0 +1,10 @@
+FROM openjdk:17-jdk-alpine
+WORKDIR /app
+COPY target/Bloodbankjar.jar Bloodbankjar.jar
+ENTRYPOINT ["java", "-jar", "Bloodbankjar.jar"]
+
+#docker build -t Bloodbankjar .
+#docker run -itBloodbankjar
+
+#docker run -it --entrypoint /bin/sh Bloodbankjar
+#java -jar Bloodbankjar.jar
